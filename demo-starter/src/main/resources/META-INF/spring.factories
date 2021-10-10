@@ -1,0 +1,5 @@
+#-------starter自动装配---------
+#指定java配置类, \ 是换行连接符
+#spring.factories中也可以进行多个配置类的指定,用逗号,隔开
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.gaoap.learning.demostarter.config.HelloWorldAutoConfiguration

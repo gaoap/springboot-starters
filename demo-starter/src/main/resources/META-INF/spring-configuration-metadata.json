@@ -1,0 +1,40 @@
+{
+  "groups": [
+    {
+      "name": "helloworld",
+      "type": "com.gaoap.learning.demostarter.properties.HelloWorldProperties",
+      "sourceType": "com.gaoap.learning.demostarter.properties.HelloWorldProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "helloworld.age",
+      "type": "java.lang.Long",
+      "description": "时长",
+      "sourceType": "com.gaoap.learning.demostarter.properties.HelloWorldProperties",
+      "defaultValue": -1
+    },
+    {
+      "name": "helloworld.who",
+      "type": "java.lang.String",
+      "description": "谁",
+      "sourceType": "com.gaoap.learning.demostarter.properties.HelloWorldProperties",
+      "defaultValue": "world"
+    },
+    {
+      "name": "helloworld.what",
+      "type": "java.lang.String",
+      "description": "什么",
+      "sourceType": "com.gaoap.learning.demostarter.properties.HelloWorldProperties",
+      "defaultValue": "hello"
+    },
+    {
+      "name": "helloworld.isopen",
+      "type": "java.lang.Boolean",
+      "description": "是否打开",
+      "sourceType": "com.gaoap.learning.demostarter.properties.HelloWorldProperties",
+      "defaultValue": "false"
+    }
+  ],
+  "hints": []
+}
