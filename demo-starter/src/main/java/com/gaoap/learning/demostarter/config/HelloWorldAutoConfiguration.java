@@ -44,7 +44,7 @@ public class HelloWorldAutoConfiguration {
     private HelloWorldProperties helloWorldProperties;
 
     @Bean(name = "helloWorldService")
-    @ConditionalOnMissingBean(HelloWorldProperties.class)
+    @ConditionalOnMissingBean(name="helloWorldService")
     public HelloWorldService helloWorldService() {
         return new HelloWorldService(helloWorldProperties);
     }
